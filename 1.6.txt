@@ -1,0 +1,37 @@
+1.import java.io.*;
+class Acad
+{
+public static void main(String args[])
+{
+int a=5,b=6;
+System.out.println(a+b);
+}
+}
+2. import java.io.*;
+class Acad
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+int a,b;
+a=s.nextInt();
+b=s.nextInt();
+System.out.println(a+b);
+}
+}
+3.import java.io.*;
+class Acad
+{
+public static void main(String args[]) 
+{
+Scanner s=new Scanner(System.in);
+int a,b;
+a=s.nextInt();
+b=s.nextInt();
+sum(a,b)
+}
+void sum(int c,int d)
+{
+System.out.println(c+d);
+}
+}
